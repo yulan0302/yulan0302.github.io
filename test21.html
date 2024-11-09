@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal wesbite</title>
+    <link rel="stylesheet" href="style14.css">
+</head>
+<body>
+    <header>
+        <h1>personal wesbite</h1>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#homepage">home</a></li>
+                <li><a href="#about">me</a></li>
+                <li><a href="#portfolio">products</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="homepage">
+        <h2>welcome</h2>
+        <p>I am nidie.</p>
+        <p>this is my personal wesbite</p>
+    </section>
+
+    <section id="about">
+        <h2>me</h2>
+        <div class="about-me">
+            <img src="d.jpg" alt="personal picture" class="about-image">
+            <div class="about-text">
+                <p>I am nidie，Graduated from Nanchang Hangkong University, majoring in [Network Engineering].</p>
+                <p>I'm good at slacking off</p>
+                <p>My career goal is to become an outstanding software engineer.</p>
+                <a href="a.pdf" target="_blank" class="resume-link">View my resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>products</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <h3>item1</h3>
+                <img src="picture1.jpg" alt="picture">
+                <p>discription。</p>
+                <a href="http://127.0.0.1:5500/game.html" target="_blank">online demo</a>
+            </div>
+            <div class="portfolio-item">
+                <h3>item2</h3>
+                <img src="picture1.jpg" alt="picture">
+                <p>discription。</p>
+                <a href="http://127.0.0.1:5500/part10.html" target="_blank">online demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>contact</h2>
+        <form id="contactForm">
+            <label for="name">name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">subit</button>
+        </form>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yourgithubusername" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 [nidie]</p>
+    </footer>
+
+   <!-- 触发模态窗口的按钮 -->
+<button id="myBtn" class="centered-button">Open modal window</button>
+<button id="myBtn1">open picture</button>
+
+<!-- 模态窗口 -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="picture.jpg" alt="Image" style="width:100%; height:auto;">
+        <h2>Modal window title</h2>
+        <p>I'm Diga, give me fifty and take you flying</p>
+        <button type="button" onclick="closeModal()">close</button>
+    </div>
+</div>
+
+
+    <script src="7.js"></script>
+</body>
+</html>

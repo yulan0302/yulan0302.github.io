@@ -1,0 +1,48 @@
+/* General body styling */  
+body {  
+    font-family: Arial, sans-serif;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
+    margin: 0;  
+    background-color: #fff;
+}  
+  
+
+#container {  
+    text-align: center;  
+    background-color: #fff; 
+    padding: 30px;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 300px;  
+}  
+  
+/* Button styling */  
+#showMessageButton {  
+    background-color: #4CAF50;  
+    color: white;  
+    border: none;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease;  
+}  
+  
+#showMessageButton:hover {  
+    background-color: #45a049; 
+}  
+  
+ 
+#messageArea {  
+    margin-top: 20px;  
+    font-size: 18px;  
+    color: #333;  
+    min-height: 50px;  
+}  
+  
+#message {  
+    padding: 10px;  
+}
